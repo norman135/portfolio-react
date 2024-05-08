@@ -17,15 +17,20 @@ h1, p, a {
 .full-page-section {
     height: fit-content;
     min-height: 100vh;
+    background: linear-gradient(135deg, #dbedff, #d1efd1, #ffffdb, #fff4f4);
 }
 .half-page-section {
     min-height: 50vh;
 }
+.half-section {
+    background: linear-gradient(128deg, #d5ffd7, #ffffdb 30%, #fff4f4 50%);
+}
 .three-quart-section {
     min-height: 75vh;
+    background: linear-gradient(135deg, #dbedff, #d1efd1, #ffffdb, #fff4f4);
 }
 .opposite-section {
-    background-color: black;
+    background-color: linear-gradient(135deg, #000c18, #000e00, #0c0c00, #120000);
     color: white;
 }
 .title-area {
